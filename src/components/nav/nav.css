@@ -1,0 +1,51 @@
+.container {
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.navHeader {
+    float: right;
+    padding-top: .9em;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.navHeaderMobile {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    .container {
+      position: relative;
+    }
+
+    .navHeaderMobile {
+        float: right;
+        display: block;
+        font-weight: 700;
+        color: #022662;
+        text-decoration: none;
+        padding-top: 1rem;
+    }    
+
+    .navHeader {
+        display: none;
+    }
+
+    .navbar {
+        background-color: #fff;
+        padding: 1rem 2rem;
+        position: relative;
+    }
+  }
+
+.logo {
+    width: 75px;
+    height: 42px;
+}

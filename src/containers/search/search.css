@@ -1,0 +1,14 @@
+.searchbarWrapper {
+    position: absolute;
+    top: 10em;
+    left: 2em;
+    right: 0;
+    z-index: 2;
+  }
+
+  .loaderContainer {
+    z-index: 100;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }

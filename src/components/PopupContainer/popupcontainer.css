@@ -1,0 +1,16 @@
+.popupContainer {
+    min-width: 250px;
+    padding: 1em .8em;
+    
+    line-height: 1.5;
+}
+
+.floatRight {
+    float: right;
+    font-weight: 600;
+}
+
+:global .mapboxgl-popup-content {
+    border-bottom: 5px solid #1caae2;
+    border-radius: 0;
+}
